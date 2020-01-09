@@ -26,8 +26,8 @@ while (1) {
             } catch (Exception exp) {
                 println("Error during convert type, pleas try again")
             }
-            LenghtCalc mileCalc = new LenghtCalc()
-            mileCalc.mileToKilometr(mile)
+            LengthCalc mileCalc = new LengthCalc()
+            mileCalc.mileToKilometer(mile)
             mileCalc = null
             break
         case 2:
@@ -40,8 +40,8 @@ while (1) {
           } catch (Exception exp) {
               println("Error during convert type, pleas try again")
           }
-          LenghtCalc kilometerCalc = new LenghtCalc()
-          kilometerCalc.kilometrToMile(kilometer)
+          LengthCalc kilometerCalc = new LengthCalc()
+          kilometerCalc.kilometerToMile(kilometer)
           kilometerCalc = null
           break
             break
